@@ -1,0 +1,62 @@
+body{background-color:#ffff;}
+#head-pic {
+    margin: 10px auto;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#S2{border-radius:30px; background-color:rgba(255,255,255,0.8);}
+nav {
+    background-color: #ffe699 !important;
+    font-size: 1.2rem;
+}
+
+#messagebox {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 15px;
+    margin:20px auto;
+}
+
+#S2 {
+    justify-content: center;
+    text-align: center;
+}
+#ex-area {
+    background-color: lightpink;
+}
+.box {
+    justify-content: center;
+}
+
+.topicBox {
+   background-repeat:no-repeat;
+   margin:5px;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+  /*  background-color:rgba(255, 255, 255,0.6);*/
+}
+    .topicBox:hover {
+        transform: scale(1.2); /* Equal to scaleX(0.7) scaleY(0.7) */
+    }
+.content-box-inside {
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 20px 5px 20px 5px;
+    padding: 50px;
+    margin: 25px;
+    background-color: rgba(255, 255, 255,0.7);
+}
+#photo {width:150px;
+}
+
+#aboutme_box{background-color:; }
+.ex-box{box-shadow:1px 1px 5px gray;border-radius:20px;padding:15px;}
+@media (max-width:480px) {
+    .content-box-inside {
+        padding: 10px;
+    }
+    }
